@@ -1,6 +1,26 @@
 # DataScience
 
+Employee Management System (EMS):
+Objective - Create a simplified Employee Management System (EMS). This project will cover control structures, functions, and object-oriented programming concepts to manage employee data.
+Steps Implemented:
+Step 1 - Plan the Data Storage
+Used a dictionary to store employee data where the keys is the emp_id (Employee ID) and the value is another dictionary containing furthur details.
+Step 2 - Define the Menu System
+Created a menu that displays the following options: Add Employee, View All Employees, Search for Employee, Exit
+Step 3 - Add Employee Functionality
+Step 4 - View All Employees
+Step 5 - Search for an Employee by ID
+Step 6 - Exit the Program
+
+Project Code Structure
+To keep the project organized, breaked it into functions:
+main_menu(): Displays the main menu and calls the appropriate function based on user input.
+add_employee(): Adds a new employee to the dictionary.
+view_employees(): Displays all employee details.
+search_employee(): Searches for an employee by ID.
+
 Probability Module:
+
 Basics of Probability
 1. Write a Python program to simulate the following scenarios:  
   a. Tossing a coin 10,000 times and calculating the experimental probability of heads and tails.  
